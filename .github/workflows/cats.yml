@@ -4,8 +4,7 @@ on: [pull_request]
 
 jobs:
   cats:
-    runs-on: brntbeer-local
-    if: ${{ github.event.pull_request.author == 'brntbeer'}}
+    runs-on: ubuntu-latest
     steps:
       - name: Action Cats
         uses: ruairidhwm/action-cats@master
