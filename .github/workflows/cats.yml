@@ -4,9 +4,9 @@ on: [pull_request]
 
 jobs:
   cats:
-    runs-on: ubuntu-latest
+    runs-on: brntbeer-local
     steps:
       - name: Action Cats
-        uses: ruairidhwm/action-cats@master
+        uses: ruairidhwm/action-cats@7b2897b
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
