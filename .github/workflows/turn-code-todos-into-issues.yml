@@ -3,6 +3,7 @@ on: ["push"]
 jobs:
   build:
     runs-on: "ubuntu-latest"
+    if: ${{github.repository != "brntbeer/awesome-actions"}}
     steps:
       - uses: "actions/checkout@master"
       - name: "TODO to Issue"
