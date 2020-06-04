@@ -6,7 +6,7 @@ Awesome actions is a repository template that comes with pre-configured GitHub A
 * [greets first time contributors to issues and pull requests](.github/workflows/greetings.yml) with a warm welcome message
 * [add the names of everybody who stars the repository](.github/workflows/add-stars.yml#L9-L17) in its README
 * [mark issues that did not receive comments as stale and closes them](.github/workflows/stale.yml) a bit later if there was no recent activity
-* [add a cat gif](https://github.blog/2020-04-09-featured-actions-from-the-github-actions-hackathon/#action-cats) to any pull request created to reward pushing code
+* [add a cat gif](https://github.blog/2020-04-09-featured-actions-from-the-github-actions-hackathon/#action-cats) to any pull request created to reward pushing code only if the PR is created from brntbeer and it's using a self-hosted runner
 * [add a template message based on a label](https://github.blog/2020-04-09-featured-actions-from-the-github-actions-hackathon/#actions-label-commenter)
 * [turns TODO comments in code into issues](https://github.blog/2020-04-09-featured-actions-from-the-github-actions-hackathon/#todo-to-issue)
 * executes [Javascript talking to the GitHub API directly from a comment](https://github.blog/2020-04-09-featured-actions-from-the-github-actions-hackathon/#actions-comment-run)
